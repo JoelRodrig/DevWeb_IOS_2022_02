@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+
+        <title>Elemento Form</title>
+    </head>
+
+    <body>
+        <!--Estrutura do elemento Form-->
+        <form method="post" action="joelomar531@gmail.com">
+            <input required />
+            <input type="submit" value="Enviar" />
+
+            <!--Valor do Checkbox atributo type-->
+            <p>Escolha o Estado que você quer morar</p>
+            <label for="cid">Toronto</label>
+            <input id="cid" type="checkbox" />
+            <label for="tex">Texas</label>
+            <input id="tex" type="checkbox" />
+
+            <!--Valor RADIO para o atributo type-->
+
+            <p>Selecione a vacina</p>
+            <label for="meg">Megatron</label>
+            <input type="radio" id="meg" name="tipo" />
+
+            <label for="bom">Bombombi</label>
+            <input type="radio" id="bom" name="tipo" />
+
+            <label for="iro">Bombeiro</label>
+            <input type="radio" id="iro" name="tipo" />
+            <br />
+            <br />
+            <!--Elemento Select. Datalist e Option-->
+            <label for="pao">Escolha seu pão</label>
+            <select name="pao" id="pao">
+                <option value="for">Forma</option>
+                <option value="bro">Bronha</option>
+                <option value="fran">Frances</option>
+                <option value="bag">Baguete</option>
+            </select>
+            <br>
+            <br>
+
+            <label for="times">Times</label>
+            <input autocomplete="on" list="time" name="times" id="times">
+            <datalist id="time">
+                <option value="pen">Penapolence</option>
+                <option value="por">Portuguesa</option>
+                <option value="pal">Palmeiras</option>
+                <option value="cha">Chapeco</option>
+                <option value="pia">Piaui</option>
+            </datalist>
+        </form>
+    </body>
+</html>
