@@ -1,0 +1,30 @@
+body {
+    background-color: bisque;
+    color: #191970;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+p {
+    background-color: #aeaed4;
+    text-align: center;
+    font-size: 0.9em;
+    text-indent: 3em;
+}
+
+h1 {
+    background-color: #191970;
+    color: #e6e6fa;
+    text-align: center;
+    
+   /* border-top: 2px dotted yellow; */
+   
+    border-width: 2px;
+    border-style: solid;
+    border-color: #e6e6fa;
+    border: 2px solid red;
+    
+    /*border-bottom: 2px solid yellow;*/
+}
