@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+* {
+    background-color: #d1c8a3;
+    font-size: 25px;
+}
+
+.informacoes {
+    background-color: #c6ad71;
+    font-style: italic;
+    border: 1px solid #acba9d;
+}
+
+h4 {
+    color: #e3604d;
+}
+
+h3 {
+    color: #e3604d;
+}
+
+h2 {
+    color: #e3604d;
+}
