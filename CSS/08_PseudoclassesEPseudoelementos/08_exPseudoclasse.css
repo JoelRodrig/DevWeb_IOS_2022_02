@@ -1,0 +1,16 @@
+body {
+    background-color: lightgray;
+    background-image: url('AttackOnTitan.jpg');
+}
+
+h1 {
+    color: red;
+}
+
+img {
+    
+}
+
+.container {
+    padding: 2em;
+}

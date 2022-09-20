@@ -1,0 +1,50 @@
+p:first-child {
+    color: blue;
+}
+
+.myList li:first-child {
+    background-color: yellowgreen;
+}
+
+.myList li:nth-child(3) {
+    background-color: blue;
+}
+
+.myList li:last-child {
+    background-color: chocolate;
+}
+
+a:hover {
+    background-color: forestgreen;
+}
+
+#paragrafo::before {
+    content: "Leia isso - ";
+}
+
+#paragrafo2::after {
+    content: " - Leia mais";
+}
+
+/* Pseudoelemento -  
+first-letter que pega a primeira
+ letra do meu elemento */
+
+p::first-letter {
+    font-size: 200%;
+    color: #8A2BE2;
+}
+
+#first::first-line {
+    background-color: goldenrod;
+}
+
+p::selection {
+    color: aliceblue;
+    background-color: blue;
+}
+
+::selection {
+    color: gold;
+    background-color: red;
+}
