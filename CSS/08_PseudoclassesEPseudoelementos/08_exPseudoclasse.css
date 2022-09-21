@@ -1,16 +1,18 @@
+* {
+    margin: 0.3%;
+    padding: 3%;
+}
+
 body {
-    background-color: lightgray;
-    background-image: url('AttackOnTitan.jpg');
+    background-color: #725635;
+    background-image: url('attackontitan3.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 h1 {
-    color: red;
-}
-
-img {
+    text-align: center;
+    color: #FFF;
+    filter: drop-shadow(1px 8px 5px red);
     
-}
-
-.container {
-    padding: 2em;
 }
