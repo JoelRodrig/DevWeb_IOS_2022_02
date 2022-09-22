@@ -1,11 +1,11 @@
 * {
-    margin: 0.3%;
-    padding: 3%;
+    margin: 1%;
+    padding: 4.5%;
 }
 
 body {
-    background-color: #725635;
-    background-image: url('attackontitan3.jpg');
+    background-color: #8c867c;
+    background-image: url('attackontitan02.jpg');
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -15,4 +15,12 @@ h1 {
     color: #FFF;
     filter: drop-shadow(1px 8px 5px red);
     
+}
+
+.container {
+    display: flex;
+}
+
+img {
+    width: 300px;
 }
