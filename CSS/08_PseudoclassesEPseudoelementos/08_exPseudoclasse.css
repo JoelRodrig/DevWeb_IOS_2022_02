@@ -1,27 +1,83 @@
-* {
-    margin: 1%;
-    padding: 4.5%;
-}
-
 body {
     background-color: #8c867c;
-    background-image: url('attackontitan02.jpg');
-    background-size: contain;
+    background-image: url('attackontitanfundo.jpg');
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-attachment: fixed;
+ 
 }
 
 h1 {
     text-align: center;
     color: #FFF;
     filter: drop-shadow(1px 8px 5px red);
+    padding: 30px;
+
 }
 
 .container {
-    display: flex;
+    margin-top: 1%;
+    margin-left: 10%;
 }
 
+.conteudo {
+    display: flex;
+    margin-top: 40px;
+    background-color: #C1C2BC;
+    padding: 10px;
+}
+
+a:hover {
+    background-color: #725436;
+}
 img {
-    width: 250px;
-    position: absolute;
+    width: 300px;
+}
+
+section {
+    background-color: #533618;
+    padding: 10px;
+    margin: 13px;
+    border: 1px inset yellow;
+}
+
+h2 {
+    padding-top: 1px;
+    text-align: center;
+    color: purple;
+}
+
+.informacao {
+    padding: 15px;
+}
+
+.noticias {
+    float: left;
+}
+
+.paragrafo {
+    padding-top: 2px;
+    text-align: center;
+}
+
+.btn {
+    font-size: 18px;
+    background-color: #314A20;
+    padding: 4px 15px;
+    font-weight: 300;
+    margin-left: 3px;
+    border-radius: 10em;
+    color: #fff;
+    text-decoration: none;
+    padding-bottom: 5px;
+    
+}
+
+.rodape {
+    background-color: #8c867c;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 10px;
+    color: #fff;
 }
