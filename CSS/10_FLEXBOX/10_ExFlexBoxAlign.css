@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+body {
+ background-color: #777;   
+}
+.container {
+    display: flex;
+}
+
+.container div {
+    border: 1px inset #777;
+    padding: 10px;
+    margin: 2px;
+    background-color: aquamarine;
+}
+
+h2 {
+    color: goldenrod;
+    text-shadow: 1px 3px  yellow;
+}
+
+.item-1 {
+    flex: 1;
+    order: 4;
+}
+
+.item-2 {
+    flex: 3;
+    order: 2;
+    align-self: flex-end;
+}
+
+.item-3 {
+    flex: 2;
+    order: 3;
+}
+
+.item-4 {
+    flex: 4;
+    order: 1;
+}
