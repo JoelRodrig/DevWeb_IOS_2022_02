@@ -10,32 +10,55 @@ body {
     padding: 30px;
     font-size: 25px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: aliceblue;
+    background-color: brown;
 }
-
-
 
 img {
-    width: 50%;
-    height: 100%;
-    display: flex;
+    width: 400px;
+    height: 230px;
 }
 
-div {
+h2 {
+    text-align: center;
+    color: darkred;
+    text-shadow: 4px 2px yellow;
+}
+
+h3 {
+    text-align: center;
+    color: gold;
+}
+
+.primeira-div {
     border: 2px solid #000;
-    margin: 2em 1px;
-    padding: 2.5em;
-    border-radius: 30px;
+    border-radius: 20px;
+    margin: 30px 30px;
+    padding: 20px 30px;
+    background-color: #000;
 }
 
-.sala1 {
-    background-color: aquamarine;
+.primeira-div h3 {
+    margin: 30px 5px;
 }
 
-.sala2 {
-    background-color: bisque;
+.sala-right {
+    display: flex;
+    flex-direction: row-reverse;
+    color: #fff;
 }
 
-.direita {
-    float: right;
+.sala-left {
+    display: flex;
+    color: #fff;
+}
+
+.sala-right figure {
+    margin: 10px;
+}
+
+.sala-left figure {
+    margin: 10px;
+}
+figcaption {
+    color: #fff;
 }
