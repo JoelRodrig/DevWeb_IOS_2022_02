@@ -1,0 +1,41 @@
+@charset "UTF-8";
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: aliceblue;
+}
+
+
+
+img {
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+
+div {
+    border: 2px solid #000;
+    margin: 2em 1px;
+    padding: 2.5em;
+    border-radius: 30px;
+}
+
+.sala1 {
+    background-color: aquamarine;
+}
+
+.sala2 {
+    background-color: bisque;
+}
+
+.direita {
+    float: right;
+}
