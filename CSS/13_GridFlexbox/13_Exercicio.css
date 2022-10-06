@@ -8,7 +8,7 @@ body {
 
 #cabecalho {
     display: flex;
-    float: inline-start;
+    justify-content: left;
     background-color: #725436;
     margin-left: 5em;
     margin-right: 5em;
