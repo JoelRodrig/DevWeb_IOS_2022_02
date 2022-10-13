@@ -22,12 +22,24 @@ if (html < css  && css > js) {
 
 //Receber um número correspondente a um determinado
 //ano e em seguida informar se este ano é bissexto.
-var ano = 1992;
 
-if  (ano % 400 == 0){
-    console.log( `400 corresponde a que ${ano} é um ano bissexto`)
-} else if (ano % 100 == 0) {
+
+let ano = 1996
+if (ano % 100 == 0) {
     console.log(ano + ' Não é um ano bissexto');
-} else if (ano % 4 == 0) {
-    console.log(`4 corresponde que ${ano} é um ano bissexto`);
+} else if (ano % 400 == 0 || ano % 4 ==0) {
+    console.log(ano + ' É um ano bissexto');
 }
+
+
+/*
+var noAno = 1992;
+
+if  (noAno % 400 == 0){
+    console.log( `400 corresponde a que ${noAno} é um ano bissexto`)
+} else if (noAno % 100 == 0) {
+    console.log(noAno + ' Não é um ano bissexto');
+} else if (noAno % 4 == 0) {
+    console.log(`4 corresponde que ${noAno} é um ano bissexto`);
+}
+*/
