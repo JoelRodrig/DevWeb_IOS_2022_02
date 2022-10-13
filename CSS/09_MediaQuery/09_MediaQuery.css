@@ -16,7 +16,7 @@ h2 {
     box-sizing: border-box;
     margin: 0px;
 }
-   
+
 .price-box {
     background: #fff;
     color: #555;
@@ -59,7 +59,7 @@ h2 {
     padding: 0px;
     box-sizing: border-box;
     margin: 0px;
-    
+
 }
 
 .header2 {
@@ -81,6 +81,9 @@ h2 {
 
 @media(max-width:768px) {
     .col {
-    width: 60%;
+    width: 100%;
+    }
+    .premium {
+        width: 100%;
     }
 }
