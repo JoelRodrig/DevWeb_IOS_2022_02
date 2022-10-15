@@ -19,22 +19,9 @@ console.log(regressiva);
 
 //(3) Mostrar no console os números pares de 1 a 100. (For)
 
-for (let i = 2; i < 100; i++) {
+for (let i = 1; i < 100; i++) {
     if ( i % 2 == 1) {
         i = i + 1;
     }
     console.log(` Números pares ${i}`);
 }
-
-
-// OU
-
-/*
-
-for (let i = 0; i < 100; i++) {
-    if ( i % 2 == 1) {
-        i = i + 1;
-    }
-    console.log(` Números pares ${i}`);
-}
-*/
