@@ -28,11 +28,28 @@
 
 h1 {
     text-align: center;
-    color:#fff;
+    color:rgb(98, 71, 218);
+}
+
+.sobre-padrao {
+    background-color: beige;
 }
 
 .paragrafo-2 {
     text-align: center;
     margin: 5em;
     color: #000;
+    margin-left: 14em;
+    margin-right: 14em;
+    padding-left: 9em;
+    padding-right: 9em;
+    padding-bottom: 2em;
+}
+
+.faq-padrao {
+    background-color: beige;
+}
+
+.faq {
+    text-align: center;
 }
