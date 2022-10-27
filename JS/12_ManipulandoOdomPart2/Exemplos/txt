@@ -1,0 +1,22 @@
+/*
+
+Configurando listas:
+// Alterando o estilo da lista
+nome[0].style.listStyle = 'none'; Tira os pontos em negrito da nossa lista
+// Marcadores numéricos
+nome[1].style.listStyle = 'decimal inside';
+
+
+
+
+
+
+Exemplo (js):
+// Remove elemento do DOM
+let item2 = document.getElementById('item2');
+item2.remove();
+// Retornando o elemento
+let lista = document.getElementById('items');
+let item1 = document.getElementById('item1');
+lista.insertBefore(item2, item1.nextSibling);
+*/
