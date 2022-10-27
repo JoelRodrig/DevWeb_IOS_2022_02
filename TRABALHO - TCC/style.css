@@ -1,15 +1,22 @@
 @charset "UTF-8";
 
+body {
+    background-color: rgba(46, 216, 12, 0.39);
+}
+
 .navbar {
     background-color: darkseagreen;
 }
 
-.dropdown-menu {
-    background-color: darkseagreen;
-}
 
-.container-fluid {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.alugue-carro {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    background-image: url(./img/design-dentro-4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: drop-shadow(2px 15px 15px rgba(16, 19, 15, 0.808));
+    text-align: center;
 }
 
 .btn-intro {
@@ -22,17 +29,12 @@
     background-image: url(./img/design-dentro-4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    filter: drop-shadow(2px 5px 5px rgba(47, 175, 15, 0.808));
-
+    filter: drop-shadow(2px 15px 15px rgba(16, 19, 15, 0.808));
 }
 
 h1 {
     text-align: center;
-    color:rgb(98, 71, 218);
-}
-
-.sobre-padrao {
-    background-color: beige;
+    color:rgb(162, 218, 71);
 }
 
 .paragrafo-2 {
@@ -47,9 +49,12 @@ h1 {
 }
 
 .faq-padrao {
-    background-color: beige;
+    text-align: center;
 }
 
-.faq {
-    text-align: center;
+footer {
+    color: #fff;
+    background-image: url(./img/bg.jpg);
+    padding: 10px;
+    padding-top: 20px;
 }
