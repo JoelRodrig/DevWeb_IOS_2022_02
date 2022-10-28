@@ -25,15 +25,15 @@ function alterador4() {
     console.log(nome);
 }
 
+let item5 = document.getElementById('item5');
 function alterador5(){
-    let item5 = document.getElementById('item5');
     item5.remove();
 }
 
+let lista = document.getElementById('items');
+let item4 = document.getElementById('item4');
+
 function alterador6(){
-    let lista = document.getElementById('items');
-    let item5 = document.getElementById('item5');
-    let item4 = document.getElementById('item4');
     lista.insertBefore(item5, item4.nextSibling);
-    item5.textContent = 'item recuperado';
+    item5.textContent = 'Item recuperado';
 }
