@@ -26,6 +26,7 @@ function alterador4() {
 }
 
 let item5 = document.getElementById('item5');
+
 function alterador5(){
     item5.remove();
 }
