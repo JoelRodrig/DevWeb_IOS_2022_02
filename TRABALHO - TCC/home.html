@@ -57,17 +57,13 @@
         </div>
     </nav>
 
-    <div class="alugue-carro">
-        <h2 class="flw-bold titulo-alugue">Alugue um carro</h2>
-    </div>
 
     <header class="p-5">
-        <div>
+        <div class="inicio">
             <h2 class="fw-bold fs-3">PONTUALIDADE E SUA SEGURANÇA SÃO NOSSAS PRIORIDADES</h2>
             <p class="col-md-8 fs-5">
                 Contamos com diversas marcas e modelos de veículos de alto padrão blindados nível IIIA rastreados via
-                satélite,
-                com a opção de contratação de motoristas bilíngues treinados em direção evasiva e
+                satélite, com a opção de contratação de motoristas bilíngues treinados em direção evasiva e
                 defensiva nas principais cidades do Brasil. Contamos também com uma área especializada
                 em grupos e eventos que organiza toda a logística para pequenas, médias e grandes convenções.
             </p>
@@ -101,12 +97,31 @@
     <br>
     <br>
     <div>
-        <h2 class="text-center">Informações sobre Dados, redes sociais e tals</h2>
-        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores explicabo eveniet
-            corporis
-            et libero esse molestiae similique quod amet porro sit, natus eaque deserunt impedit. Rerum aliquam
-            perspiciatis
-            nostrum. Numquam!</p>
+        <form id="my-form">
+            <h2 class="text-center">Fale conosco</h2>
+            <div class="msg"></div>
+            <div>
+                <label for="name">Nome:</label>
+                <input type="text" id="name" required />
+            </div>
+            <div>
+                <label for="email">E-mail:</label>
+                <input type="text" id="email" required />
+            </div>
+            <div class="msg_email"></div>
+            <div>
+                <label for="horario">Horário:</label>
+                <select name="hours" id="horario">
+                    <option value="--">---</option>
+                    <option value="9:00h">9:00</option>
+                    <option value="10:00h">10:00</option>
+                    <option value="11:30h">11:30</option>
+                    <option value="14:00h">14:00</option>
+                    <option value="14:30h">14:30</option>
+                </select>
+            </div>
+            <input class="btn1" type="submit" value="Enviar" />
+        </form>
     </div>
     <br>
     <br>
