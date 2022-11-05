@@ -1,0 +1,10 @@
+/*REACT - 04/11/2022*/
+
+/* JSX Toda vez que a gente quiser usar o javascript dentro de uma tag HTML é preciso usar chaves --> {}
+
+
+Você pode usar atributos nos elementos React da mesma forma
+que no HTML, por exemplo:
+
+const elemento1 = <div tabIndex="0"></div>;
+const elemento2 = <img src={user.avatarUrl}></img>;*/
