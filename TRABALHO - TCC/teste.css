@@ -30,7 +30,7 @@
     width: 40px;
     color: #fff;
     transition: all 1000ms ease-in-out;
-    background: linear-gradient(to left, transparent 20%,black 400%);
+    background: linear-gradient(to left, transparent 40%,black 400%);
     cursor: pointer;
     border: none;
   }
@@ -63,7 +63,7 @@
     right: 0;
     left: auto;
     text-align: right;
-    background: linear-gradient(to right, transparent 40%, black 200%);
+    background: linear-gradient(to right, transparent 40%, black 400%);
   }
 
   .imagens {
@@ -101,7 +101,7 @@
 
 
   /* Rodapé */
-#footer {
+.footer {
     color: #fff;
     background-color: #000;
     display: flex;
@@ -109,12 +109,12 @@
     padding: 3rem 3rem 5rem;
   }
 
-  #footer i {
+  .footer i {
     font-size: 1rem;
     padding: 0.3rem;
   }
 
-  #footer a {
+  .footer a {
     color: #fff;
   }
 
@@ -126,25 +126,24 @@
     width: 20%;
   }
 
-  .footer-brand {
+  .titulo-inicial {
     margin-bottom: 2rem;
   }
 
-  .footer-brand h2 {
+  .titulo-inicial h2 {
     margin-bottom: 0.5rem;
-    padding: 1rem;
   }
 
-  .contact-info p {
+  .contato-info p {
     margin-bottom: 1rem;
   }
 
-  .contact-info p i {
+  .contato-info p i {
     background-color: transparent;
     padding: 0;
   }
 
-  .social-networks p {
+  .redes-sociais p {
     margin-bottom: 1rem;
   }
 
@@ -154,7 +153,7 @@
     gap: 1rem;
   }
 
-  #footer .networks i {
+  .logos i {
     padding: 1rem;
   }
 
@@ -163,20 +162,25 @@
     margin-bottom: 3rem;
   }
 
-  .container-links nav {
+  .container-links a {
     display: flex;
     flex-direction: column;
-  }
-
-  .container-links a {
     padding-bottom: 1rem;
     margin-bottom: 1rem;
 
   }
 
   .numero-telefone {
-    display: flex;
     gap: 1rem;
     align-items: center;
     margin-bottom: 1rem;
+  }
+
+  .copyright {
+    background-color: #000;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 11.05rem;
+    font-size: 15px;
   }
