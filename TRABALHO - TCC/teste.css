@@ -3,99 +3,27 @@
     text-align: center;
     margin: 1em 0;
     font-family: sans-serif;
-  }
+}
 
-  .container {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    position: relative;
-    padding: 15px;
-    max-width: 900px;
-    margin: 0 auto;
-  }
+.carrossel {
+  box-shadow: 2px 2px 4px #000;
+  overflow: hidden;
+  height: 500px;
+  width: 600px;
+  margin-left: 3em;
+}
 
-  .galeria {
-    overflow-x: auto;
-  }
+.containers-img {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  transform: translateX(0);
+}
 
-  .btn-left {
-    position: absolute;
-    top: 5px;
-    left: 0;
-    right: auto;
-    bottom: 5px;
-    font-size: 23px;
-    line-height: 250px;
-    width: 40px;
-    color: #fff;
-    transition: all 1000ms ease-in-out;
-    background: linear-gradient(to left, transparent 40%,black 400%);
-    cursor: pointer;
-    border: none;
-  }
-
-  .btn-right {
-    position: absolute;
-    top: 5px;
-    left: 0;
-    right: auto;
-    bottom: 5px;
-    font-size: 23px;
-    line-height: 250px;
-    width: 40px;
-    color: #fff;
-    transition: all 1000ms ease-in-out;
-    background: linear-gradient(to right, transparent 20%,black 400%);
-    cursor: pointer;
-    border: none;
-  }
-
-  .btn-left:hover {
-    opacity: 1;
-  }
-
-  .btn-right:hover {
-    opacity: 1;
-  }
-
-  .btn-right {
-    right: 0;
-    left: auto;
-    text-align: right;
-    background: linear-gradient(to right, transparent 40%, black 400%);
-  }
-
-  .imagens {
-    display: flex;
-    flex-flow: row nowrap;
-    gap: 10px;
-  }
-
-  .item {
-    width: 900px;
-    height: 700px;
-    flex-shrink: 0;
-    transition: all 600ms ease-in-out;
-    opacity: 0.5;
-  }
-
-  .current-item {
-    opacity: 1;
-  }
-
-
-  .galeria::-webkit-scrollbar {
-    display: none;
-  }
-
-
-  .galeria {
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-  }
-
-
+.containers-img img {
+  object-fit: cover;
+  height: 50%;
+  width: 100%;
+}
 
 
 
@@ -148,7 +76,7 @@
 }
 
 .logos {
-  margin-top: 2rem;
+  margin-top: 1rem;
   display: flex;
   gap: 10px;
 }

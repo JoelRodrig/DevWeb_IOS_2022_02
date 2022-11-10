@@ -1,33 +1,16 @@
-const controls = document.querySelectorAll(".control");
-let currentItem = 0;
-const items = document.querySelectorAll(".item");
-const maxItems = items.length;
+const imgs = document.getElementById('img');
+const img = document.querySelectorAll('#img img');
 
-controls.forEach((control) => {
-  control.addEventListener("click", (e) => {
-    isLeft = e.target.classList.contains("btn-left");
+let idx = 0;
 
-    if (isLeft) {
-      currentItem -= 1;
-    } else {
-      currentItem += 1;
-    }
+function carrossel() {
+  idx++;
 
-    if (currentItem >= maxItems) {
-      currentItem = 0;
-    }
+  if(idx > img.length - 1) {
+    idx = 0;
+  }
 
-    if (currentItem < 0) {
-      currentItem = maxItems - 1;
-    }
+  imgs.style.transform = `translateX(${-idx * 500}px)`;
+}
 
-    items.forEach((item) => item.classList.remove("current-item"));
-
-    items[currentItem].scrollIntoView({
-      behavior: "smooth",
-      inline: "center"
-    });
-
-    items[currentItem].classList.add("current-item");
-  });
-});
+setInterval(carrossel, 1800);
