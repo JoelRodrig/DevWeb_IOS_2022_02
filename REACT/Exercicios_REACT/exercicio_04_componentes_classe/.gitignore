@@ -1,7 +1,7 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/REACT/tema_01_exemplo_01/node_modules
+REACT/Exercicios_REACT/exercicio_04_componentes_classe/node_modules
 /node_modules
 /.pnp
 .pnp.js
