@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body {
-    background-color: #fff;
+    background-color: goldenrod;
 }
 
 .navbar {
@@ -17,7 +17,6 @@ header {
 .inicio {
     background-color: beige;
 }
-
 
 .btn-intro {
     background-color: darkgoldenrod;
@@ -72,7 +71,7 @@ header {
 }
 
 #my-form label {
-display: block;
+    display: block;
 }
 
 #my-form input[type='text'] {
@@ -80,7 +79,7 @@ display: block;
     padding: 8px;
     margin-bottom: 10px;
     border-radius: 5px;
-    border:1px solid#ccc;
+    border: 1px solid#ccc;
 }
 
 #my-form select {
@@ -88,7 +87,7 @@ display: block;
     padding: 8px;
     margin-bottom: 10px;
     border-radius: 5px;
-    border:1px solid #ccc;
+    border: 1px solid #ccc;
 }
 .btn1 {
     display: block;
@@ -105,7 +104,6 @@ display: block;
     background: rgb(211, 53, 5);
 }
 
-
 .esg {
     background-color: rgb(35, 168, 168);
     display: grid;
@@ -121,12 +119,114 @@ display: block;
     text-align: center;
 }
 
-
-
-
-footer {
+.footer {
     color: #fff;
-    background-image: url(./img/bg.jpg);
-    padding: 10px;
-    padding-top: 20px;
+    background-color: #000;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+
+.footer i {
+    font-size: 1rem;
+    padding: 0.3rem;
+}
+
+.footer a {
+    color: #fff;
+}
+
+.contato-info {
+    width: 8%;
+}
+
+.container-links {
+    width: 10%;
+}
+
+.titulo-inicial {
+    margin-bottom: 2rem;
+}
+
+.titulo-inicial h2 {
+    margin-bottom: 0.5rem;
+}
+
+.contato-info p {
+    margin-bottom: 1rem;
+}
+
+.contato-info p i {
+    background-color: transparent;
+    padding: 0;
+}
+
+.redes-sociais p {
+    margin-bottom: 1rem;
+}
+
+.logos {
+    margin-top: 1rem;
+    display: flex;
+    gap: 10px;
+}
+
+.logos i {
+    padding: 1rem;
+}
+
+.container-links h4 {
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+}
+
+.container-links a {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    position: relative;
+}
+
+a:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    visibility: hidden;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    transition: all 0.2s ease-in-out 0s;
+}
+
+a:hover:before {
+    visibility: visible;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.numero-telefone {
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.logos img {
+    margin: 4px;
+    width: 25%;
+    height: 25%;
+    margin-left: 20px;
+}
+
+.copyright {
+    background-color: #000;
+    color: #fff;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-top: 5px;
+    padding-top: 10px;
 }

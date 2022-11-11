@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--Configuração da Media Query-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -126,30 +127,149 @@
     <br>
     <br>
     <h1 class="titulo-esg">ESG</h1>
-<section class="esg">
-    <div>
-        <img src="./img/Arvore.png" alt="">
-        <p>Sabemos o quão poluentes são os veículos, por isso adotamos de forma responsável e criamos a <strong>Nature Everywhere</strong>,
-            projeto da qual tem a finalidade de platação de árvores na Amazônia, preservando a natureza de todo território brasileiro.
-        </p>
-    </div>
-    <div>
-        <img src="./img/PaineisSolares.jpg" alt="">
-        <p>Adotamos também do <strong>Power Solar Energy</strong>, projeto que tem a finalidade de fazer uma pequena diferença para a nossa sociedade
-            desenvolvendo painéis solares ao Norte do Brasil, onde os recursos são baixos e poucas pessoas tem acesso a uma energia elétrica no seu lar.
-        </p>
-    <div>
-    <div>
-        <img src="./img/Arvore.png" alt="">
-        <p>Visando pela parte da saúde optamos pela iniciativade de criar <strong>Fund Emergency</strong>, fundo emergencial da qual tem a função de dar apoio a pessoas
-             de baixa renda, onde elas conseguem ter um apoio hospitalar, realizando exames de forma gratuita e acessível para todos.
-        </p>
-    </div>
-</section>
+    <section class="esg">
+        <div>
+            <img src="./img/Arvore.png" alt="">
+            <p>Sabemos o quão poluentes são os veículos, por isso adotamos de forma responsável e criamos a
+                <strong>Nature Everywhere</strong>,
+                projeto da qual tem a finalidade de platação de árvores na Amazônia, preservando a natureza de todo
+                território brasileiro.
+            </p>
+        </div>
+        <div>
+            <img src="./img/PaineisSolares.jpg" alt="">
+            <p>Adotamos também do <strong>Power Solar Energy</strong>, projeto que tem a finalidade de fazer uma pequena
+                diferença para a nossa sociedade
+                desenvolvendo painéis solares ao Norte do Brasil, onde os recursos são baixos e poucas pessoas tem
+                acesso a uma energia elétrica no seu lar.
+            </p>
+            <div>
+                <div>
+                    <img src="./img/Arvore.png" alt="">
+                    <p>Visando pela parte da saúde optamos pela iniciativade de criar <strong>Fund Emergency</strong>,
+                        fundo emergencial da qual tem a função de dar apoio a pessoas
+                        de baixa renda, onde elas conseguem ter um apoio hospitalar, realizando exames de forma gratuita
+                        e acessível para todos.
+                    </p>
+                </div>
+    </section>
+
+    <!--TESTE FORMULÁRIO-->
+
+    <form class="row g-3">
+        <div class="col-md-4">
+            <label for="validationServer01" class="form-label">Nome</label>
+            <input type="text" class="form-control" id="validationServer01" required>
+
+        </div>
+        <div class="col-md-4">
+            <label for="validationServer02" class="form-label">Sobrenome</label>
+            <input type="text" class="form-control" id="validationServer02" required>
+        </div>
+        <div class="col-md-4">
+            <label for="validationServerUsername" class="form-label">E-mail</label>
+            <div class="input-group has-validation">
+                <span class="input-group-text" id="inputGroupPrepend3">@</span>
+                <input type="text" class="form-control" id="validationServerUsername"
+                    aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <label for="validationServer03" class="form-label">Cidade</label>
+            <input type="text" class="form-control" id="validationServer03"
+                aria-describedby="validationServer03Feedback" required>
+        </div>
+        <div class="col-md-3">
+            <label for="validationServer04" class="form-label">Estado</label>
+            <select class="form-select " id="validationServer04" aria-describedby="validationServer04Feedback"
+                required>
+                <option selected disabled value=""></option>
+                <option>Distrito Federal (DF)</option>
+                <option>Mato Grosso do Sul (MS)</option>
+                <option>Minas Gerais (MG)</option>
+                <option>Rio de Janeiro (RJ)</option>
+                <option>Rio Grande do Sul (RS)</option>
+                <option>São Paulo (SP)</option>
+            </select>
+        </div>
+        <div class="col-md-3">
+            <label for="validationServer04" class="form-label">Arquivo</label>
+            <input type="file" class="form-control" id="validationServer05"
+                aria-describedby="validationServer05Feedback" required>
+
+        </div>
+        <div class="col-12">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck3"
+                    aria-describedby="invalidCheck3Feedback" required>
+                <label class="form-check-label" for="invalidCheck3">
+                    Eu aceito termos e <a href="">Política Privacidade</a>
+                </label>
+            </div>
+        </div>
+        <div class="col-12">
+            <button class="btn btn-primary" type="submit">Submit form</button>
+        </div>
+    </form>
 
 
-    <footer class="text-center">
-        <p>2022 &copy; - IOS / Todos os direitos reservados / Joel Rodriguez</p>
+
+
+
+
+
+    <footer>
+        <div class="footer">
+            <div class="contato-info">
+                <div class="titulo-inicial">
+                    <h2>Estabelecimento</h2>
+                </div>
+
+                <p><i class="endereço"></i> Rua Bela Vista, 1415</p>
+                <p><i class="telefone"></i> (99) 9999-9999</p>
+                <p><i class="e-mail"></i> contato@motorsfastpower.com</p>
+
+                <div class="redes-sociais">
+                    <p>Siga-nos:</p>
+                    <div class="logos">
+                        <img src="./img/logoFacebook.png" alt="logoFacebook">
+                        <img src="./img/logoInstagram.png" alt="logoInstagram">
+                        <img src="./img/logoTwitter.jpg" alt="logoTwitter">
+                    </div>
+                </div>
+            </div>
+            <div class="container-links">
+                <h4>Outros serviços</h4>
+                <nav>
+                    <a href="#">Apoie a Educação Solar</a>
+                    <a href="#">Pontos de descarte</a>
+                    <a href="#">Trabalhe conosco</a>
+                    <a href="#">FAQ</a>
+                </nav>
+            </div>
+            <div class="container-links">
+                <h4>Sobre</h4>
+                <nav>
+                    <a href="#">Motors Fas Power</a>
+                    <a href="#">Área do cliente</a>
+                    <a href="#">Política de privacidade</a>
+                    <a href="#">Termos e condições</a>
+                </nav>
+            </div>
+            <div class="container-links">
+                <h4>Suporte</h4>
+                <div class="numero-telefone">
+                    <p>contato@suportfastpower.com</p>
+                    <p>(99) 9999-9999</p>
+                </div>
+                <p class="telefone-suport">
+                    Telefone exclusivo para clientes
+                </p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p> &copy; 2022 Motors Fast Power - Todos os direitos reservados</p>
+        </div>
     </footer>
 
     <!-- JavaScript Bundle with Popper -->
