@@ -9,9 +9,15 @@ html {
     font-family: 'Montserrat', sans-serif;
     scroll-behavior: smooth;
 }
+
+body {
+    background-color: #b2b7bd;
+}
+
 a {
     text-decoration: none;
 }
+
 .container {
     min-height: 100vh;
     width: 100%;
@@ -70,17 +76,7 @@ p {
     color: white;
     background-color: crimson;
 }
-/*
-.brand h1 {
-    font-size: 3rem;
-    text-transform: uppercase;
-    color: white;
-}
 
-.brand h1 span {
-    color: crimson;
-}
-*/
 
 /* Header section */
 #header {
@@ -214,7 +210,7 @@ p {
     background-image: url(./img/banner.jpg);
     background-size: cover;
     background-position: top center;
-
+    position: relative;
     z-index: 1;
 }
 #hero::after {
@@ -297,12 +293,18 @@ p {
     margin: 0 auto;
 }
 
+#services .service-top p {
+    font-size: 2.3em;
+    color: crimson;
+}
+
 #services .service-bottom {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 50px;
+    background-color: #dee3e9;
 }
 
 #services .service-item {
@@ -313,9 +315,8 @@ p {
     flex-direction: column;
     padding: 30px;
     border-radius: 10px;
-    background-image: url(./img/img-1.png);
-    background-size: cover;
     margin: 10px 5%;
+    background-color: #29323c;
     position: relative;
     z-index: 1;
     overflow: hidden;
@@ -337,6 +338,9 @@ p {
     height: 80px;
     width: 80px;
     margin-bottom: 20px;
+    margin-left: 3em;
+    margin-bottom: 4em;
+    margin-top: 2em;
 }
 
 #services .service-item h2 {
@@ -350,6 +354,7 @@ p {
     color: white;
     text-align: left;
 }
+
 /* Final Categorias Section */
 
 /* Inicio Projetos section */
@@ -419,7 +424,7 @@ p {
     flex-basis: 50%;
     height: 300px;
     overflow: hidden;
-	position: relative;
+
 }
 
 #projects .project-img:after {
@@ -461,15 +466,11 @@ p {
     width: 100%;
 }
 
-#about .col-right h2 {
-    font-size: 1.8rem;
-    font-weight: 500;
-    letter-spacing: 0.2rem;
-    margin-bottom: 10px;
-}
+
 
 #about .col-right p {
     margin-bottom: 20px;
+    font-size: 1.5em;
 }
 #about .col-right .cta {
     color: black;
