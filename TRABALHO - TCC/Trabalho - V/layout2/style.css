@@ -11,7 +11,7 @@ html {
 }
 
 body {
-    background-color: #b2b7bd;
+    background-color: rgb(218, 216, 216);
 }
 
 a {
@@ -80,7 +80,6 @@ p {
 }
 
 
-/* Header section */
 #header {
     position: fixed;
     z-index: 1000;
@@ -105,6 +104,7 @@ p {
     max-width: 1300px;
     padding: 0 10px;
 }
+
 #header .nav-list ul {
     list-style: none;
     position: absolute;
@@ -121,6 +121,7 @@ p {
     overflow-x: hidden;
     transition: 0.5s ease left;
 }
+
 #header .nav-list ul.active {
     left: 0%;
 }
@@ -216,9 +217,7 @@ p {
 #header .hamburger.active .bar::after {
     top: 0;
 }
-/* End Header section */
 
-/* Hero Section */
 #hero {
     background-image: url(./img/banner.jpg);
     background-size: cover;
@@ -290,9 +289,6 @@ p {
     animation-delay: 2.5s;
 }
 
-/* End Hero Section */
-
-/* Inicio Categorias Section */
 #services .services {
     flex-direction: column;
     text-align: center;
@@ -317,7 +313,7 @@ p {
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 50px;
-    background-color: #dee3e9;
+    background-color: #e7edf3;
 }
 
 #services .service-item {
@@ -329,9 +325,7 @@ p {
     padding: 30px;
     border-radius: 10px;
     margin: 10px 5%;
-    background-color: #29323c;
-    position: relative;
-    z-index: 1;
+    background-color: #000000;
     overflow: hidden;
 }
 
@@ -342,7 +336,7 @@ p {
     top: 0;
     height: 100%;
     width: 100%;
-    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+    background-image: linear-gradient(60deg, #29323c 0%, #282a2c 200%);
     opacity: 0.9;
     z-index: -1;
 }
@@ -354,17 +348,18 @@ p {
     margin-left: 3em;
     margin-bottom: 4em;
     margin-top: 2em;
+    filter: drop-shadow(3px 3px 2px #172885);
 }
 
 #services .service-item h2 {
     font-size: 2rem;
-    color: white;
+    color: gold;
     margin-bottom: 10px;
     text-transform: uppercase;
 }
 
 #services .service-item p {
-    color: white;
+    color: #fff;
     text-align: left;
 }
 
@@ -385,9 +380,7 @@ p {
     opacity: 1;
     transform: 0px 0px 0px;
 }
-/* Final Categorias Section */
 
-/* Inicio Projetos section */
 #projects .projects {
     flex-direction: column;
     max-width: 1200px;
@@ -476,9 +469,6 @@ p {
     transform: scale(1.1);
 }
 
-/* Final Projetos section */
-
-/* About Section */
 #about .about {
     flex-direction: column-reverse;
     text-align: center;
@@ -495,8 +485,6 @@ p {
 #about .col-right {
     width: 100%;
 }
-
-
 
 #about .col-right p {
     margin-bottom: 20px;
@@ -526,9 +514,7 @@ p {
     border: 7px solid crimson;
     z-index: -1;
 }
-/* End About Section */
 
-/* contact Section */
 #contact .contact {
     flex-direction: column;
     max-width: 1200px;
@@ -580,9 +566,7 @@ p {
     line-height: 2rem;
     font-weight: 500;
 }
-/*End contact Section */
 
-/* Footer */
 #footer {
     background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
 }
@@ -627,9 +611,8 @@ p {
     color: white;
     font-size: 1.3rem;
 }
-/* End Footer */
 
-/* Keyframes */
+
 @keyframes hamburger_puls {
     0% {
         opacity: 1;

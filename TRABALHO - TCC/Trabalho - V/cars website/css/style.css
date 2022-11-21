@@ -18,7 +18,6 @@
     outline: none;
     border:none;
     text-decoration: none;
-    text-transform: capitalize;
     transition: .2s linear;
 }
 
@@ -28,6 +27,7 @@ html{
     scroll-padding-top: 7rem;
     scroll-behavior: smooth;
 }
+
 
 section{
     padding:2rem 9%;
@@ -51,7 +51,7 @@ section{
     bottom:1rem; left:0;
     height: 100%;
     width: 100%;
-    background: var(--light-yellow);
+    background: #15e7a8;
     z-index: -1;
     clip-path: polygon(0 90%, 100% 80%, 100% 100%, 0% 100%);
 }
@@ -348,27 +348,33 @@ section{
 }
 
 .vehicles .vehicles-slider .box .content span{
-    font-size: 1rem;
-    color:var(--yellow);
+    font-size: 1.2rem;
+    color: rgb(238, 141, 30);
     padding:0 .5rem;
 }
 
 .swiper-pagination-bullet-active{
-    background: var(--yellow);
+    background: rgb(238, 141, 30);
+}
+
+.services {
+    background-image: linear-gradient(to right, rgb(223, 219, 219), rgb(156, 151, 151), rgb(156, 155, 155), rgb(77, 74, 74));
 }
 
 .services .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap:1.5rem;
+    margin-bottom: 8rem;
 }
 
-.services .box-container .box{
+.services .box-container .box {
     padding:2rem;
     border-radius: .5rem;
     box-shadow: var(--box-shadow);
     border:var(--border);
     text-align: center;
+    background-color: #f3f9ff;
 }
 
 .services .box-container .box i{
@@ -380,6 +386,7 @@ section{
     margin-bottom: 1rem;
     background:var(--yellow);
     color:var(--black);
+    background-color: #faea10;
 }
 
 .services .box-container .box h3{
@@ -395,7 +402,7 @@ section{
 }
 
 .services .box-container .box:hover{
-    background: var(--black);
+    background: #130f40;
 }
 
 .services .box-container .box:hover h3{
@@ -406,8 +413,14 @@ section{
     color:#eee;
 }
 
+.featured {
+    margin-top: 5rem;
+    background-color: #fff;
+    margin-top: 0;
+}
+
 .featured .featured-slider{
-    padding:1rem;
+    padding: 1rem;
     padding-bottom: 4rem;
 }
 
@@ -417,6 +430,7 @@ section{
     box-shadow: var(--box-shadow);
     border:var(--border);
     border-radius: .5rem;
+    background-color: rgb(228, 208, 141);
 }
 
 .featured .featured-slider .box img{
@@ -590,8 +604,9 @@ section{
 }
 
 .footer{
-    background: var(--light-yellow);
+    background-image: linear-gradient(60deg, #636568 100%, #586069 0%);
     padding-bottom: 8rem;
+    color: #fff;
 }
 
 .footer .box-container{
@@ -603,14 +618,14 @@ section{
 .footer .box-container .box h3{
     font-size: 2.2rem;
     padding:1rem 0;
-    color:var(--black);
+    color: var(--white);
 }
 
 .footer .box-container .box a{
     display: block;
     font-size: 1.4rem;
     padding:1rem 0;
-    color:var(--light-color);
+    color: #fff;
 }
 
 .footer .box-container .box a i{
