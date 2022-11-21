@@ -11,7 +11,7 @@ hamburger.addEventListener('click', () => {
 document.addEventListener('scroll', () => {
 	var scroll_position = window.scrollY;
 	if (scroll_position > 250) {
-		header.style.backgroundColor = '#29323c';
+		header.style.backgroundColor = 'rgb(102, 100, 100)';
 	} else {
 		header.style.backgroundColor = 'transparent';
 	}
@@ -25,3 +25,21 @@ menu_item.forEach((item) => {
 });
 
 
+const target = document.querySelectorAll('[data-anime]');
+const animationClass = 'animate';
+
+function animeScroll() {
+	const windowTop = window.pageYOffset + ((window.innerHeight * 3) / 4);
+	target.forEach(function(element) {
+		if ((windowTop) > element.offsetTop) {
+			element.classList.add(animationClass);
+		} else {
+			element.classList.remove(animationClass);
+		}
+	})
+}
+
+
+window.addEventListener('scroll', function() {
+	animeScroll();
+})
