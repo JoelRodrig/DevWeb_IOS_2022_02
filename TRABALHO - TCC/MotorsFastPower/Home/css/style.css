@@ -11,7 +11,7 @@ html {
 }
 
 body {
-    background-color: rgb(218, 216, 216);
+    background-color: #fff;
 }
 
 a {
@@ -91,7 +91,7 @@ p {
 
 #header .header {
     min-height: 8vh;
-    background-color: rgb(31, 30, 30, 0.24);
+    background-color: #29323c;
     transition: 0.3s ease background-color;
 }
 
@@ -313,7 +313,7 @@ p {
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 50px;
-    background-color: #e7edf3;
+    background-color: #29323c;
 }
 
 #services .service-item {
@@ -325,8 +325,9 @@ p {
     padding: 30px;
     border-radius: 10px;
     margin: 10px 5%;
-    background-color: #000000;
     overflow: hidden;
+    border: 0 inset #fff;
+    box-shadow: 8px 9px 8px #badadf;
 }
 
 #services .service-item::after {
@@ -348,19 +349,24 @@ p {
     margin-left: 3em;
     margin-bottom: 4em;
     margin-top: 2em;
-    filter: drop-shadow(3px 3px 2px #172885);
 }
 
 #services .service-item h2 {
-    font-size: 2rem;
-    color: gold;
+    font-size: 2.5rem;
+    color: goldenrod;
     margin-bottom: 10px;
     text-transform: uppercase;
+    text-align: center;
 }
 
 #services .service-item p {
     color: #fff;
     text-align: left;
+    font-size: 1.4rem;
+}
+
+.icon img:hover {
+    transform: scale(1.5);
 }
 
 [data-anime] {
@@ -555,6 +561,10 @@ p {
     margin-bottom: 10px;
 }
 
+#contact .icon img:hover {
+    transform: none;
+}
+
 #contact .contact-info h1 {
     font-size: 2.5rem;
     font-weight: 500;
@@ -568,7 +578,7 @@ p {
 }
 
 #footer {
-    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+    background-color: #29323c;
 }
 
 #footer .footer {
@@ -595,16 +605,17 @@ p {
 #footer .social-item {
     height: 50px;
     width: 50px;
-    margin: 0 5px;
+
 }
 
 #footer .social-item img {
-    filter: grayscale(1);
-    transition: 0.3s ease filter;
+    opacity: 0.5;
+    border-radius: 3rem;
+    margin-top: 1.3em;
 }
 
 #footer .social-item:hover img {
-    filter: grayscale(0);
+   opacity: 1;
 }
 
 #footer p {

@@ -81,7 +81,7 @@ section{
     top:0; left:0; right:0;
     padding:3rem 9%;
     z-index: 1000;
-    background-color: rgb(102, 100, 100);
+    background-color: #29323c;
     height: 12%;
 }
 
@@ -210,7 +210,7 @@ section{
     cursor: pointer;
 }
 
-.home{
+.home {
     padding-top: 10rem;
     text-align: center;
     overflow-x: hidden;
@@ -462,23 +462,25 @@ section{
 
 
 
-.newsletter{
+.newsletter {
     padding:6rem 2rem;
     background: url(../image/letter-bg.png) no-repeat;
     background-size: cover;
     background-position: center;
     text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
 }
 
 .newsletter h3{
     font-size: 3rem;
-    color:var(--black);
+    color: var(--black);
 }
 
 .newsletter p{
     font-size: 1.5rem;
-    color:var(--light-color);
-    padding:1rem 0;
+    color: var(--black);
+    padding: 1rem 0;
 }
 
 .newsletter form{
@@ -497,7 +499,7 @@ section{
     width:100%;
     padding:0 2rem;
     font-size: 1.6rem;
-    color:var(--black);
+    color: var(--black);
     text-transform: none;
 }
 
@@ -505,13 +507,13 @@ section{
     height: 100%;
     width:17rem;
     font-size: 1.7rem;
-    color:var(--black);
-    background: var(--light-yellow);
+    color: #fff;
+    background: crimson;
     cursor: pointer;
 }
 
 .newsletter form input[type="submit"]:hover{
-    background: var(--yellow);
+    background: orangered;
 }
 
 .reviews .review-slider{
