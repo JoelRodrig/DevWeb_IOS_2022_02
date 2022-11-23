@@ -92,7 +92,7 @@ section{
 .header .navbar a{
     margin:0 1rem;
     font-size: 1.7rem;
-    color: #000;
+    color: #fff;
 }
 
 .header .navbar a:hover{
@@ -601,8 +601,12 @@ section{
 }
 
 .contact .row form textarea{
-    height:15rem;
+    height: 15rem;
     resize: none;
+}
+
+footer {
+    padding: 2rem 9%;
 }
 
 .footer{
@@ -614,19 +618,19 @@ section{
 .footer .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-    gap:1.5rem;
+    gap: 1.5rem;
 }
 
 .footer .box-container .box h3{
     font-size: 2.2rem;
-    padding:1rem 0;
-    color: var(--white);
+    padding: 1rem 0;
+    color: #fff;
 }
 
 .footer .box-container .box a{
     display: block;
     font-size: 1.4rem;
-    padding:1rem 0;
+    padding: 1rem 0;
     color: #fff;
 }
 
@@ -657,15 +661,19 @@ section{
     }
 
     .header{
-        padding:2rem;
+        padding: 2rem;
     }
 
     .header.active{
-        padding:2rem;
+        padding: 2rem;
     }
 
-    section{
-        padding:2rem;
+    section {
+        padding: 2rem;
+    }
+
+    footer {
+        padding: 2rem;
     }
 
 }
@@ -691,7 +699,7 @@ section{
     .header .navbar{
         position: absolute;
         top:99%; left:0; right:0;
-        background: #fff;
+        background: #29323c;
         border-top: var(--border);
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
     }
