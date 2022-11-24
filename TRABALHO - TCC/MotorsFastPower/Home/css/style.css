@@ -1,9 +1,11 @@
 @import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
 html {
     font-size: 10px;
     font-family: 'Montserrat', sans-serif;
@@ -305,7 +307,7 @@ p {
 }
 
 #services .section-title {
-    font-size: 6.5rem;
+    font-size: 4.5rem;
 }
 
 #services .service-top p {
@@ -321,9 +323,14 @@ p {
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 50px;
-    background-color: #29323c;
+    background-image: url(../img/fundCarLogo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
     padding-bottom: 8rem;
     padding-top: 8rem;
+
 }
 
 #services .service-item {
@@ -336,8 +343,6 @@ p {
     border-radius: 10px;
     margin: 10px 5%;
     overflow: hidden;
-    border: 0 inset #fff;
-    box-shadow: 8px 9px 8px #badadf;
 }
 
 #services .service-item::after {
@@ -352,32 +357,101 @@ p {
     z-index: -1;
 }
 
-#services .service-bottom .icon {
+#services .service-bottom .logo-brands {
     height: 80px;
     width: 80px;
     margin-bottom: 20px;
-    margin-left: 3em;
-    margin-bottom: 4em;
+    margin-left: 1em;
+    margin-bottom: 5em;
     margin-top: 2em;
+
 }
 
-#services .service-item h2 {
+#services .service-bottom .logo-brands img {
+    height: 100%;
+    margin-left: 10rem;
+}
+
+#services .service-bottom .logo-brand {
+    margin-left: -3.5rem;
+}
+
+/*Test start*/
+
+
+section {
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    padding:0;
+}
+
+.icons-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 3.5rem;
+    column-gap: 0;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: rgb(218, 209, 209);
+}
+
+.icons-container .icons {
+    background: #fff;
+    display: flex;
+    align-items: center;
+    box-shadow: var(--box-shadow);
+    border-radius: 0.5rem;
+    padding: 2rem;
+    gap: 1.5rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.icons-container .icons i {
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
     font-size: 2.5rem;
-    color: goldenrod;
-    margin-bottom: 10px;
-    text-transform: uppercase;
+    color: var(--black);
+    background: #faea10;
     text-align: center;
+    border-radius: 50%;
 }
 
-#services .service-item p {
+.icons-container .icons .content h3 {
+    font-size: 2.5rem;
+    color: var(--black);
+}
+
+.icons-container .icons .content p {
+    font-size: 1.5rem;
+    color: var(--light-color);
+}
+
+.icons-container .icons:hover {
+    background: #29323c;
+}
+
+.icons-container .icons:hover i {
+    background: orangered;
+}
+
+.icons-container .icons:hover .content h3 {
     color: #fff;
-    text-align: left;
-    font-size: 1.4rem;
 }
 
-.icon img:hover {
-    transform: scale(1.5);
+.icons-container .icons:hover .content p {
+    color: #eee;
 }
+
+
+
+
+
+
+/*Test end*/
+
 
 [data-anime] {
     opacity: 0;
@@ -499,7 +573,7 @@ p {
 
 #about .col-right p {
     margin-bottom: 20px;
-    font-size: 1.5em;
+    font-size: 2.5em;
 }
 #about .col-right .cta {
     color: black;
@@ -512,7 +586,7 @@ p {
     height: 100%;
     width: 100%;
     position: relative;
-    border: 10px solid white;
+    border: 10px solid #fff;
 }
 
 #about .col-left .about-img::after {
@@ -685,7 +759,6 @@ p {
         margin: 2.5%;
     }
 
-
     #projects .project-item {
         flex-direction: row;
     }
@@ -759,7 +832,6 @@ p {
         text-align: left;
         padding-left: 20px;
     }
-
 }
 
 @media only screen and (min-width: 1200px) {
@@ -783,8 +855,6 @@ p {
     #header .nav-list ul a:after {
         display: none;
     }
-
-
     #services .service-bottom .service-item {
         flex-basis: 22%;
         margin: 1.5%;

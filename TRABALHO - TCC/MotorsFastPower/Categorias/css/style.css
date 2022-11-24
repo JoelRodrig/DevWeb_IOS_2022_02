@@ -28,12 +28,15 @@ html{
     scroll-behavior: smooth;
 }
 
+body {
+    background-color: #fff;
+}
 
-section{
+section {
     padding:2rem 9%;
 }
 
-.heading{
+.heading {
     padding-bottom: 2rem;
     text-align: center;
     font-size: 4.5rem;
@@ -243,57 +246,57 @@ section{
 }
 
 .icons-container .icons {
-    background:#fff;
+    background: #fff;
     display: flex;
     align-items: center;
     box-shadow: var(--box-shadow);
     border-radius: .5rem;
-    padding:2rem;
-    gap:1.5rem;
+    padding: 2rem;
+    gap: 1.5rem;
 }
 
 .icons-container .icons i{
-    height:5rem;
-    width:5rem;
-    line-height:5rem;
-    font-size:2.5rem;
-    color:var(--black);
-    background:#eee;
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 2.5rem;
+    color: var(--black);
+    background: #faea10;
     text-align: center;
     border-radius: 50%;
 }
 
 .icons-container .icons .content h3{
     font-size: 2.5rem;
-    color:var(--black);
+    color: var(--black);
 }
 
 .icons-container .icons .content p{
     font-size: 1.5rem;
-    color:var(--light-color);
+    color: var(--light-color);
 }
 
 .icons-container .icons:hover{
-    background:var(--darkblack);
+    background: #29323c;
 }
 
 .icons-container .icons:hover i{
-    background:var(--yellow);
+    background: orangered;
 }
 
 .icons-container .icons:hover .content h3{
-    color:#fff;
+    color: #fff;
 }
 
 .icons-container .icons:hover .content p{
-    color:#eee;
+    color: #eee;
 }
 
 #vehicles {
     background-color: transparent;
 }
 
-.vehicles .vehicles-slider{
+.vehicles .vehicles-slider {
     padding-bottom: 5rem;
 }
 
@@ -302,7 +305,7 @@ section{
 }
 
 .vehicles .vehicles-slider .box img{
-    width:100%;
+    width: 100%;
     transform: scale(.8);
     opacity: .5;
 }
@@ -329,19 +332,19 @@ section{
 .vehicles .vehicles-slider .box .content .price{
     font-size: 2.2rem;
     color: green;
-    padding:1rem 0;
+    padding: 1rem 0;
     font-weight: bolder;
 }
 
 .vehicles .vehicles-slider .box .content .price span{
-    color:var(--light-color);
+    color: var(--light-color);
     font-size: 1.5rem;
     font-weight: normal;
 }
 
 .vehicles .vehicles-slider .box .content p{
     font-size: 1.6rem;
-    color:var(--light-color);
+    color: var(--light-color);
     padding: 1rem 0;
     padding-top: 1.5rem;
     border-top: var(--border);
@@ -350,7 +353,7 @@ section{
 .vehicles .vehicles-slider .box .content span{
     font-size: 1.2rem;
     color: rgb(238, 141, 30);
-    padding:0 .5rem;
+    padding: 0 .5rem;
 }
 
 .swiper-pagination-bullet-active{
@@ -361,56 +364,59 @@ section{
     background-image: linear-gradient(to right, rgb(223, 219, 219), rgb(156, 151, 151), rgb(156, 155, 155), rgb(77, 74, 74));
 }
 
-.services .box-container{
+.services .box-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    gap:1.5rem;
+    gap: 1.5rem;
     margin-bottom: 8rem;
 }
 
 .services .box-container .box {
-    padding:2rem;
+    padding: 2rem;
     border-radius: .5rem;
     box-shadow: var(--box-shadow);
-    border:var(--border);
+    border: var(--border);
     text-align: center;
     background-color: #f3f9ff;
 }
 
 .services .box-container .box i{
-    height:6rem;
-    width:6rem;
+    height: 6rem;
+    width: 6rem;
     line-height: 6rem;
     border-radius: 50%;
     font-size: 2.5rem;
     margin-bottom: 1rem;
-    background:var(--yellow);
-    color:var(--black);
+    background: var(--yellow);
+    color: var(--black);
     background-color: #faea10;
 }
 
 .services .box-container .box h3{
     font-size: 2.2rem;
-    color:var(--black);
+    color: var(--black);
 }
 
 .services .box-container .box p{
     line-height: 1.8;
-    padding:1rem 0;
+    padding: 1rem 0;
     font-size: 1.4rem;
-    color:var(--light-color);
+    color: var(--light-color);
 }
 
 .services .box-container .box:hover{
-    background: #130f40;
+    background: #29323c;
 }
 
 .services .box-container .box:hover h3{
-    color:#fff;
+    color: #fff;
 }
 
 .services .box-container .box:hover p{
-    color:#eee;
+    color: #eee;
+}
+.services .box-container .box:hover i {
+    background-color: orangered;
 }
 
 .featured {
@@ -425,10 +431,10 @@ section{
 }
 
 .featured .featured-slider .box{
-    padding:2rem;
+    padding: 2rem;
     text-align: center;
     box-shadow: var(--box-shadow);
-    border:var(--border);
+    border: var(--border);
     border-radius: .5rem;
     background-color: rgb(228, 208, 141);
 }
@@ -443,27 +449,27 @@ section{
 
 .featured .featured-slider .box .content h3{
     font-size: 2.2rem;
-    color:var(--black);
+    color: var(--black);
 }
 
 .featured .featured-slider .box .content .stars{
-    padding:1rem 0;
+    padding: 1rem 0;
 }
 
 .featured .featured-slider .box .content .stars i{
     font-size: 1.7rem;
-    color:var(--yellow);
+    color: var(--yellow);
 }
 
 .featured .featured-slider .box .content .price{
     font-size: 2.5rem;
-    color:var(--black);
+    color: var(--black);
 }
 
 
 
 .newsletter {
-    padding:6rem 2rem;
+    padding: 6rem 2rem;
     background: url(../image/letter-bg.png) no-repeat;
     background-size: cover;
     background-position: center;
@@ -485,18 +491,18 @@ section{
 
 .newsletter form{
     max-width: 60rem;
-    height:5rem;
+    height: 5rem;
     background:#fff;
     border-radius: 5rem;
-    overflow:hidden;
+    overflow: hidden;
     display: flex;
-    margin:1rem auto;
+    margin: 1rem auto;
     box-shadow: var(--box-shadow);
 }
 
 .newsletter form input[type="email"]{
     height: 100%;
-    width:100%;
+    width: 100%;
     padding:0 2rem;
     font-size: 1.6rem;
     color: var(--black);
@@ -505,7 +511,7 @@ section{
 
 .newsletter form input[type="submit"]{
     height: 100%;
-    width:17rem;
+    width: 17rem;
     font-size: 1.7rem;
     color: #fff;
     background: crimson;
@@ -522,7 +528,7 @@ section{
 
 .reviews .review-slider .box{
     text-align: center;
-    padding:2rem;
+    padding: 2rem;
     margin: 2rem 0;
     opacity: .4;
     transform: scale(.9);
@@ -532,72 +538,72 @@ section{
     opacity: 1;
     transform: scale(1);
     box-shadow: var(--box-shadow);
-    border:var(--border);
+    border: var(--border);
     border-radius: .5rem;
 }
 
 .reviews .review-slider .box img{
-    height:7rem;
-    width:7rem;
+    height: 7rem;
+    width: 7rem;
     border-radius: 50%;
     object-fit: cover;
 }
 
 .reviews .review-slider .box .content p{
-    color:var(--light-color);
+    color: var(--light-color);
     font-size: 1.4rem;
-    padding:1rem 0;
+    padding: 1rem 0;
 }
 
 .reviews .review-slider .box .content h3{
-    color:var(--black);
+    color: var(--black);
     font-size: 2.2rem;
     padding-bottom: .5rem;
 }
 
 .reviews .review-slider .box .content .stars i{
-    color:var(--yellow);
+    color: var(--yellow);
     font-size: 1.7rem;
 }
 
 .contact .row{
     display: flex;
     flex-wrap: wrap;
-    gap:1.5rem;
+    gap: 1.5rem;
 }
 
 .contact .row .map{
-    flex:1 1 42rem;
+    flex: 1 1 42rem;
     width: 100%;
     padding:2rem;
     box-shadow: var(--box-shadow);
-    border:var(--border);
+    border: var(--border);
     border-radius: .5rem;
 }
 
 .contact .row form{
-    padding:2rem;
-    flex:1 1 42rem;
+    padding: 2rem;
+    flex: 1 1 42rem;
     box-shadow: var(--box-shadow);
-    border:var(--border);
+    border: var(--border);
     text-align: center;
     border-radius: .5rem;
 }
 
 .contact .row form h3{
     font-size: 3rem;
-    color:var(--black);
+    color: var(--black);
     padding-bottom: 1rem;
 }
 
 .contact .row form .box{
-    width:100%;
+    width: 100%;
     border-radius: .5rem;
-    padding:1rem 1.2rem;
+    padding: 1rem 1.2rem;
     font-size: 1.6rem;
     text-transform: none;
-    border:var(--border);
-    margin:.7rem 0;
+    border: var(--border);
+    margin: .7rem 0;
 }
 
 .contact .row form textarea{
@@ -636,7 +642,7 @@ footer {
 
 .footer .box-container .box a i{
     padding-right: .5rem;
-    color:var(--black);
+    color: var(--black);
 }
 
 .footer .box-container .box a:hover i{
@@ -645,12 +651,12 @@ footer {
 
 .footer .credit{
     text-align: center;
-    padding:1.5rem;
+    padding: 1.5rem;
     padding-top: 2.5rem;
     margin-top: 2rem;
     border-top: var(--border);
     font-size: 2rem;
-    color:var(--black);
+    color: var(--black);
 }
 
 
@@ -685,7 +691,7 @@ footer {
     }
 
     #menu-btn.fa-times{
-        transform:rotate(180deg);
+        transform: rotate(180deg);
     }
 
     #login-btn .btn{
@@ -709,7 +715,7 @@ footer {
     }
 
     .header .navbar a{
-        margin:2rem;
+        margin: 2rem;
         display: block;
         font-size: 2rem;
     }
