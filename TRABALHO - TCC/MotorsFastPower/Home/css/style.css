@@ -78,7 +78,7 @@ p {
 #header .header {
     min-height: 8vh;
     transition: 0.3s ease background-color;
-    
+
 }
 
 #header .nav-bar {
@@ -297,7 +297,7 @@ section {
     background-color: #fff;
     display: flex;
     align-items: center;
-    box-shadow: var(--box-shadow);
+    box-shadow: rgba(0, 0, 0, 0.1);
     border-radius: 0.5rem;
     padding: 2rem;
     gap: 1.5rem;
@@ -310,7 +310,7 @@ section {
     width: 5rem;
     line-height: 5rem;
     font-size: 2.5rem;
-    color: var(--black);
+    color: rgb(27, 24, 24);
     background: #faea10;
     text-align: center;
     border-radius: 50%;
@@ -318,12 +318,12 @@ section {
 
 .icons-container .icons .content h3 {
     font-size: 2.5rem;
-    color: var(--black);
+    color: rgb(27, 24, 24);
 }
 
 .icons-container .icons .content p {
     font-size: 1.5rem;
-    color: var(--light-color);
+    color: #666;
 }
 
 .icons-container .icons:hover {
@@ -587,6 +587,10 @@ section {
 
 #footer {
     background-color: #29323c;
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    padding:0;
 }
 
 #footer .footer {
