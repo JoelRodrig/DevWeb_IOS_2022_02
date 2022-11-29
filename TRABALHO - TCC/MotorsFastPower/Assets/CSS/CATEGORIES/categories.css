@@ -238,6 +238,119 @@ section {
     margin-bottom: 14rem;
 }
 
+.featured {
+    margin-top: 5rem;
+    background-color: rgb(233, 233, 236);
+    margin-top: 0;
+}
+
+.featured .featured-slider {
+    padding: 1rem;
+    padding-bottom: 4rem;
+}
+
+.featured .featured-slider .box {
+    padding: 2rem;
+    text-align: center;
+    box-shadow: var(--box-shadow);
+    border: 1.2px outset gold;
+    border-radius: 0.5rem;
+    background-color: rgb(233, 233, 236);
+}
+
+.featured .featured-slider .box img {
+    height: 15rem;
+}
+
+.featured .featured-slider .box:hover img {
+    transform: scale(1.5);
+}
+
+.featured .featured-slider .box .content h3 {
+    font-size: 2.2rem;
+    color: var(--black);
+}
+.featured .featured-slider .box .content p {
+    font-size: 1.3rem;
+}
+
+.featured .featured-slider .box .content p span {
+    font-size: 1.3rem;
+    color: crimson;
+    padding: 0 0.5rem;
+}
+
+.featured .featured-slider .box .content .stars {
+    padding: 1rem 0;
+}
+
+.featured .featured-slider .box .content .stars i {
+    font-size: 1.7rem;
+    color: var(--yellow);
+}
+
+.featured .featured-slider .box .content .price {
+    font-size: 2.5rem;
+    color: var(--black);
+}
+
+
+.newsletter {
+    padding: 6rem 2rem;
+    background-image: url(../../IMG/CATEGORIES/letter-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    margin-top: 20rem;
+    margin-bottom: 20rem;
+}
+
+.newsletter h3 {
+    font-size: 3rem;
+    color: var(--black);
+}
+
+.newsletter p {
+    font-size: 1.5rem;
+    color: var(--black);
+    padding: 1rem 0;
+}
+
+.newsletter form {
+    max-width: 60rem;
+    height: 5rem;
+    background-color: #fff;
+    border-radius: 5rem;
+    overflow: hidden;
+    display: flex;
+    margin: 1rem auto;
+    box-shadow: var(--box-shadow);
+}
+
+.newsletter form input[type='email'] {
+    height: 100%;
+    width: 100%;
+    padding: 0 2rem;
+    font-size: 1.6rem;
+    color: var(--black);
+    text-transform: none;
+}
+
+.newsletter form input[type='submit'] {
+    height: 100%;
+    width: 17rem;
+    font-size: 1.7rem;
+    color: #fff;
+    background-color: crimson;
+    cursor: pointer;
+}
+
+.newsletter form input[type='submit']:hover {
+    background-color: orangered;
+}
+
+
 #vehicles {
     background-color: rgb(233, 233, 236);
 }
@@ -304,108 +417,6 @@ section {
 
 .swiper-pagination-bullet-active {
     background-color: crimson;
-}
-
-.newsletter {
-    padding: 6rem 2rem;
-    background-image: url(../../IMG/CATEGORIES/letter-bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    text-align: center;
-    margin-top: 20rem;
-    margin-bottom: 20rem;
-}
-
-.newsletter h3 {
-    font-size: 3rem;
-    color: var(--black);
-}
-
-.newsletter p {
-    font-size: 1.5rem;
-    color: var(--black);
-    padding: 1rem 0;
-}
-
-.newsletter form {
-    max-width: 60rem;
-    height: 5rem;
-    background-color: #fff;
-    border-radius: 5rem;
-    overflow: hidden;
-    display: flex;
-    margin: 1rem auto;
-    box-shadow: var(--box-shadow);
-}
-
-.newsletter form input[type='email'] {
-    height: 100%;
-    width: 100%;
-    padding: 0 2rem;
-    font-size: 1.6rem;
-    color: var(--black);
-    text-transform: none;
-}
-
-.newsletter form input[type='submit'] {
-    height: 100%;
-    width: 17rem;
-    font-size: 1.7rem;
-    color: #fff;
-    background-color: crimson;
-    cursor: pointer;
-}
-
-.newsletter form input[type='submit']:hover {
-    background-color: orangered;
-}
-
-.featured {
-    margin-top: 5rem;
-    background-color: rgb(233, 233, 236);
-    margin-top: 0;
-}
-
-.featured .featured-slider {
-    padding: 1rem;
-    padding-bottom: 4rem;
-}
-
-.featured .featured-slider .box {
-    padding: 2rem;
-    text-align: center;
-    box-shadow: var(--box-shadow);
-    border: 1.2px outset gold;
-    border-radius: 0.5rem;
-    background-color: rgb(233, 233, 236);
-}
-
-.featured .featured-slider .box img {
-    height: 15rem;
-}
-
-.featured .featured-slider .box:hover img {
-    transform: scale(1.5);
-}
-
-.featured .featured-slider .box .content h3 {
-    font-size: 2.2rem;
-    color: var(--black);
-}
-
-.featured .featured-slider .box .content .stars {
-    padding: 1rem 0;
-}
-
-.featured .featured-slider .box .content .stars i {
-    font-size: 1.7rem;
-    color: var(--yellow);
-}
-
-.featured .featured-slider .box .content .price {
-    font-size: 2.5rem;
-    color: var(--black);
 }
 
 .services {

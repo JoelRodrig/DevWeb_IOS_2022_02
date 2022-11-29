@@ -353,7 +353,7 @@ section {
 #services .service-top {
     max-width: 500px;
     margin: 0 auto;
-    margin-top: 8rem;
+    margin-top: 18rem;
     margin-bottom: 8rem;
 }
 
@@ -381,7 +381,6 @@ section {
     background-position: center;
     padding-bottom: 8rem;
     padding-top: 8rem;
-
 }
 
 #services .service-item {
