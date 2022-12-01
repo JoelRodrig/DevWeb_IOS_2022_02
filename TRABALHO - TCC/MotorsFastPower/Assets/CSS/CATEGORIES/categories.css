@@ -89,7 +89,7 @@ section {
     z-index: 1000;
     background-color: #29323c;
     height: 9%;
-
+    font-family: 'Montserrat', sans-serif;
 }
 
 .header img {
@@ -218,24 +218,29 @@ section {
 }
 
 .home {
-    padding-top: 10rem;
+    padding-bottom: 12rem;
     text-align: center;
     overflow-x: hidden;
     background-color: #29323c;
+    background-image: url(../../IMG/CATEGORIES/letter-bg2.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-attachment: fixed;
 }
 
 .home h3 {
-    color: var(--black);
+    color: crimson;
     font-size: 3vw;
     text-transform: uppercase;
 }
 
 .home img {
-    width: 100%;
+    width: 70%;
     margin: 1rem 0;
-    padding-top: 5rem;
+    padding-top: 30rem;
     padding-bottom: 3rem;
-    margin-bottom: 14rem;
+    margin-bottom: 6rem;
+    opacity: 0;
 }
 
 .featured {
@@ -268,7 +273,8 @@ section {
 
 .featured .featured-slider .box .content h3 {
     font-size: 2.2rem;
-    color: var(--black);
+    color: black;
+    margin-bottom: 2rem;
 }
 .featured .featured-slider .box .content p {
     font-size: 1.3rem;
@@ -290,10 +296,9 @@ section {
 }
 
 .featured .featured-slider .box .content .price {
-    font-size: 2.5rem;
-    color: var(--black);
+    font-size: 2.2rem;
+    color: black;
 }
-
 
 .newsletter {
     padding: 6rem 2rem;
@@ -302,8 +307,8 @@ section {
     background-size: cover;
     background-position: center;
     text-align: center;
-    margin-top: 20rem;
-    margin-bottom: 20rem;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
 }
 
 .newsletter h3 {
@@ -350,6 +355,13 @@ section {
     background-color: orangered;
 }
 
+div .img-fund {
+    background-image: url(../../IMG/CATEGORIES/fundCarEletric.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 
 #vehicles {
     background-color: rgb(233, 233, 236);
@@ -390,7 +402,7 @@ section {
 
 .vehicles .vehicles-slider .box .content .price {
     font-size: 2.2rem;
-    color: green;
+    color: black;
     padding: 1rem 0;
     font-weight: bolder;
 }
@@ -685,6 +697,10 @@ footer {
         margin: 2rem;
         display: block;
         font-size: 2rem;
+    }
+
+    .home {
+        padding-bottom: 25rem;
     }
 }
 
