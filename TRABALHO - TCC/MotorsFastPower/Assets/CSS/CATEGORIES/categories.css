@@ -355,13 +355,22 @@ section {
     background-color: orangered;
 }
 
-div .img-fund {
-    background-image: url(../../IMG/CATEGORIES/fundCarEletric.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
+ div video {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+ }
 
+ .title-electric {
+    background-color: rgb(10, 35, 88);
+    font-size: 5rem;
+    text-align: center;
+    color: rgb(238, 236, 236);
+    margin-top: 0;
+    margin-bottom: 3rem;
+ }
 
 #vehicles {
     background-color: rgb(233, 233, 236);
@@ -653,6 +662,16 @@ footer {
         padding: 2rem;
     }
 
+    div video {
+        padding-left: 0;
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .title-electric {
+        font-size: 2rem;
+    }
+
     section {
         padding: 2rem;
     }
@@ -702,6 +721,16 @@ footer {
     .home {
         padding-bottom: 25rem;
     }
+
+    div video {
+        padding-left: 0;
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .title-electric {
+        font-size: 3rem;
+    }
 }
 
 @media (max-width: 450px) {
@@ -710,6 +739,16 @@ footer {
     }
 
     .heading {
+        font-size: 3rem;
+    }
+
+    div video {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .title-electric {
         font-size: 3rem;
     }
 }
