@@ -1,5 +1,5 @@
-let botao = document.querySelector(".btn-clicar")
+let botao = document.querySelector(".btn-clicar");
 
 function clicar () {
-    alert("Seu Cadastro foi concluido com sucesso")
+    alert("Seu Cadastro foi concluido com sucesso");
 }

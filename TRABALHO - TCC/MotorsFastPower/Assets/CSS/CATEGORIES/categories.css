@@ -119,6 +119,7 @@ section {
 #login-btn i:hover {
     background-color: crimson;
     padding: 0.7em;
+    border-radius: 3rem;
     cursor: pointer;
 }
 
@@ -137,6 +138,7 @@ section {
     background-color: crimson;
     padding: 0.7em;
     cursor: pointer;
+    border-radius: 3rem;
 }
 
 .login-form-container {
@@ -224,6 +226,7 @@ section {
     background-color: rgb(233, 233, 236);
     background-image: url(../../IMG/CATEGORIES/fundCategories02.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
     background-attachment: fixed;
 }
 
@@ -236,8 +239,8 @@ section {
 .home img {
     width: 80%;
     margin: 1rem 0;
-    padding-top: 30rem;
-    padding-bottom: 3rem;
+    padding-top: 27rem;
+    padding-bottom: 10rem;
     margin-bottom: 6rem;
     opacity: 0.5;
 }
@@ -299,6 +302,14 @@ section {
     color: black;
 }
 
+.featured-electric {
+    background-image: url(../../IMG/CATEGORIES/fundCarEletric.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
 .newsletter {
     padding: 6rem 2rem;
     background-image: url(../../IMG/CATEGORIES/letter-bg.png);
@@ -308,7 +319,7 @@ section {
     text-align: center;
     margin-top: 10rem;
     margin-bottom: 10rem;
-    background-color: #221f44;
+    background-color: #0f0672;
     opacity: 0.8;
 }
 
@@ -362,6 +373,13 @@ section {
     padding-left: 0;
     padding-right: 0;
     padding-bottom: 0;
+ }
+
+ section video {
+    padding-left: 3rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    width: 70%;
  }
 
  .title-electric {
@@ -657,6 +675,13 @@ footer {
         font-size: 55%;
     }
 
+
+    .home {
+        background-position: 10%;
+        background-size: cover;
+    }
+
+
     .header {
         padding: 2rem;
     }
@@ -669,6 +694,11 @@ footer {
         padding-left: 0;
         width: 100%;
         padding-right: 0;
+    }
+
+    section video {
+        width: 70%;
+        padding-left: 5rem;
     }
 
     .title-electric {
@@ -723,12 +753,24 @@ footer {
 
     .home {
         padding-bottom: 25rem;
+        background-position: 20%;
+    }
+
+    #home img {
+        width: 100%;
+
     }
 
     div video {
         padding-left: 0;
         width: 100%;
         padding-right: 0;
+    }
+
+    section video {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        width: 80%;
     }
 
     .title-electric {
@@ -741,6 +783,12 @@ footer {
         font-size: 50%;
     }
 
+
+    .home {
+        background-position: 80%;
+    }
+
+
     .heading {
         font-size: 3rem;
     }
@@ -749,6 +797,10 @@ footer {
         width: 100%;
         padding-left: 0;
         padding-right: 0;
+    }
+
+    section video {
+        width: 80%;
     }
 
     .title-electric {
