@@ -775,6 +775,9 @@ footer {
 
     .title-electric {
         font-size: 3rem;
+        padding-left: 1.5rem;
+        padding-top: 2rem;
+        padding-right: 1rem;
     }
 }
 
