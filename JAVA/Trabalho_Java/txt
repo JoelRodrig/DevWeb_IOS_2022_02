@@ -6,10 +6,14 @@ R: É um framework de objeto relacional para a linguagem JAVA, fornece uma estru
 para um modelo de domínio orientado a objetos para um banco de dados.
 
 3) O que é JVM, JDK e JRE?
-R:
+R: É um conjunto que permite criar sistemas de software na linguagem Java.
 
-4) O que é o Java e por qual motivo foi criado??
-R:
+4) O que é o Java e por qual motivo foi criado?
+R: É uma linguagem de programação criada pela Sun Microsystems, foi criado com o objetivo de antecipar as tendências tecnológicas futuras
+orientada a objetos e centrada em rede, que nos permita codificar tudo, desde aplicações móveis e softwares, até aplicações big data e 
+tecnologias do servidor.
 
 5) Qual a diferença entre JSE, JME e JEE?
-R:
+R: JSE (Java Estándar Edition), é o ambiente orientado de desenvolvimento mais utilizado em servidores e PC's, enquanto JME (Java Micro Edition),
+é um ambiente orientada para desenvolvimento de aplicações para dispositivos móveis, já o JEE (Java Enterprise Edition), é a plataforma Java 
+voltada para redes, internet, intranets e similares.
