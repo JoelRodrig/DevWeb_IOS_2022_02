@@ -1,0 +1,77 @@
+body {
+    background-color: whitesmoke;
+}
+
+img {
+    position: absolute;
+    width: 40rem;
+    height: 189px;
+    left: 28rem;
+    top: 160px;
+}
+
+.e-mail {
+    position: absolute;
+    width: 25rem;
+    height: 3.3rem;
+    left: 37rem;
+    top: 348px;
+
+    background: #ffffff;
+    border-radius: 10px;
+}
+
+.senha {
+    position: absolute;
+    width: 25rem;
+    height: 3.3rem;
+    left: 37rem;
+    top: 26rem;
+
+    background: #ffffff;
+    border-radius: 10px;
+}
+
+.rec-senha {
+    position: absolute;
+    width: 219px;
+    height: 29px;
+    left: 37rem;
+    top: 31rem;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 29px;
+    text-decoration: none;
+    color: #1470ba;
+}
+
+.rec-senha:hover {
+    color: crimson;
+}
+
+.btn {
+    color: #fff;
+    position: absolute;
+    width: 8rem;
+    height: 3.5rem;
+    left: 54rem;
+    top: 31rem;
+    background-color: #1470ba;
+    border-radius: 1rem;
+    font-size: 1.2em;
+}
+
+.btn:hover {
+    background-color: #6ee60d;
+}
+
+.logo-rodape {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 1350px;
+    top: 675px;
+}
