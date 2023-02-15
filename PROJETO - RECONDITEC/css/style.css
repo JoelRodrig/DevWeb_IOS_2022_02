@@ -60,7 +60,7 @@ img {
     left: 54rem;
     top: 31rem;
     background-color: #1470ba;
-    border-radius: 1rem;
+    border-radius: 2rem solid #000;
     font-size: 1.2em;
 }
 
@@ -74,4 +74,47 @@ img {
     height: 200px;
     left: 1350px;
     top: 675px;
+}
+
+@media (max-width: 1200px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    img {
+        width: 82%;
+        margin-left: -28rem;
+    }
+
+    .e-mail {
+        width: 50%;
+        margin-left: -31rem;
+    }
+
+    .senha {
+        width: 50%;
+        margin-left: -31rem;
+    }
+
+    .rec-senha {
+        width: 100%;
+        font-size: 1em;
+        margin-left: -31rem;
+    }
+
+    .btn {
+        width: 14%;
+        height: 5%;
+        margin-left: -36rem;
+        font-size: 1rem;
+        border: 1px solid #000;
+    }
+
+    .logo-rodape {
+        width: 20%;
+        height: 15%;
+        margin-left: -84rem;
+        top: 0;
+    }
 }
