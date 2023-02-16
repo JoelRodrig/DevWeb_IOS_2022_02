@@ -1,12 +1,14 @@
 body {
-    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(233, 227, 219);
 }
 
 img {
     position: absolute;
     width: 40rem;
     height: 189px;
-    left: 28rem;
+    margin-left: -9rem;
     top: 160px;
 }
 
@@ -14,9 +16,7 @@ img {
     position: absolute;
     width: 25rem;
     height: 3.3rem;
-    left: 37rem;
     top: 348px;
-
     background: #ffffff;
     border-radius: 10px;
 }
@@ -25,9 +25,7 @@ img {
     position: absolute;
     width: 25rem;
     height: 3.3rem;
-    left: 37rem;
     top: 26rem;
-
     background: #ffffff;
     border-radius: 10px;
 }
@@ -36,13 +34,11 @@ img {
     position: absolute;
     width: 219px;
     height: 29px;
-    left: 37rem;
     top: 31rem;
-
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     line-height: 29px;
     text-decoration: none;
     color: #1470ba;
@@ -55,13 +51,13 @@ img {
 .btn {
     color: #fff;
     position: absolute;
-    width: 8rem;
-    height: 3.5rem;
-    left: 54rem;
+    width: 5rem;
+    height: 3rem;
     top: 31rem;
     background-color: #1470ba;
     border-radius: 2rem solid #000;
     font-size: 1.2em;
+    margin-left: 20rem;
 }
 
 .btn:hover {
@@ -70,51 +66,52 @@ img {
 
 .logo-rodape {
     position: absolute;
-    width: 200px;
-    height: 200px;
-    left: 1350px;
-    top: 675px;
+    width: 150px;
+    height: 150px;
+    top: 45rem;
+    margin-left: 40rem;
 }
 
 @media (max-width: 1200px) {
     body {
-        margin: 0;
-        padding: 0;
+        display: flex;
+        justify-content: left;
     }
 
     img {
-        width: 82%;
-        margin-left: -28rem;
+        width: 95%;
+        margin-left: 0rem;
     }
 
     .e-mail {
         width: 50%;
-        margin-left: -31rem;
+        margin-left: 8rem;
     }
 
     .senha {
         width: 50%;
-        margin-left: -31rem;
+        margin-left: 8rem;
     }
 
     .rec-senha {
         width: 100%;
         font-size: 1em;
-        margin-left: -31rem;
+        margin-left: 8rem;
     }
 
     .btn {
         width: 14%;
         height: 5%;
-        margin-left: -36rem;
         font-size: 1rem;
         border: 1px solid #000;
+        margin-left: 20.5rem;
     }
 
     .logo-rodape {
         width: 20%;
         height: 15%;
-        margin-left: -84rem;
         top: 0;
+        margin-left: 28rem;
+        margin-top: 44rem;
     }
 }
