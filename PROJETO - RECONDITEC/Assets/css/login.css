@@ -6,39 +6,52 @@ body {
 
 img {
     position: absolute;
-    width: 40rem;
+    width: 42rem;
     height: 189px;
-    margin-left: -9rem;
+    margin-left: -13rem;
     top: 160px;
 }
 
+
 .e-mail {
     position: absolute;
-    width: 25rem;
-    height: 3.3rem;
-    top: 348px;
+    width: 20rem;
+    height: 3rem;
+    top: 350px;
     background: #ffffff;
-    border-radius: 10px;
-}
-
-.senha {
-    position: absolute;
-    width: 25rem;
-    height: 3.3rem;
-    top: 26rem;
-    background: #ffffff;
-    border-radius: 10px;
-}
-
-.rec-senha {
-    position: absolute;
-    width: 219px;
-    height: 29px;
-    top: 31rem;
+    border-radius: 5px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 1.2rem;
+    line-height: 39px;
+    padding-left: 12px;
+}
+
+.senha {
+    position: absolute;
+    width: 20rem;
+    height: 3rem;
+    top: 420px;
+    background: #ffffff;
+    border-radius: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 39px;
+    padding-left: 12px;
+}
+
+.rec-senha {
+    position: absolute;
+    width: 130px;
+    height: 29px;
+    top: 30rem;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
     line-height: 29px;
     text-decoration: none;
     color: #1470ba;
@@ -51,17 +64,18 @@ img {
 .btn {
     color: #fff;
     position: absolute;
-    width: 5rem;
-    height: 3rem;
-    top: 31rem;
-    background-color: #1470ba;
-    border-radius: 2rem solid #000;
-    font-size: 1.2em;
-    margin-left: 20rem;
+    width: 4.5rem;
+    height: 2.7rem;
+    top: 30rem;
+    background: #1470ba;
+    border-radius: 8px;
+    font-size: 1em;
+    margin-left: 16.5rem;
 }
 
 .btn:hover {
     background-color: #6ee60d;
+    cursor: pointer;
 }
 
 .logo-rodape {
@@ -71,7 +85,7 @@ img {
     top: 45rem;
     margin-left: 40rem;
 }
-
+/*
 @media (max-width: 1200px) {
     body {
         display: flex;
@@ -114,4 +128,23 @@ img {
         margin-left: 28rem;
         margin-top: 44rem;
     }
+}
+*/
+
+@media screen and (min-width: 1024px) {
+    body {
+        display: flex;
+        justify-content: center;
+    }
+
+
+
+}
+
+@media screen and (min-width: 1728px) {
+    body {
+        display: flex;
+        justify-content: left;
+    }
+
 }
